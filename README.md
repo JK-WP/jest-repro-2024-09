@@ -24,7 +24,7 @@ npm run node
 Expected output:
 
 ```
-> jest-bug-repro-2024-09@1.0.0 node
+> jest-bug-repro@1.0.0 node
 > node repro.js
 
 didThrowSyntaxError? true
@@ -39,7 +39,7 @@ npm run test
 Expected output:
 
 ```
-> jest-bug-repro-2024-09@1.0.0 test
+> jest-bug-repro@1.0.0 test
 > jest
 
  FAIL  ./test.js
