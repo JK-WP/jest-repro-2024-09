@@ -1,0 +1,14 @@
+{
+  "name": "jest-bug-repro",
+  "version": "1.0.0",
+  "description": "Minimal repro of Jest bug",
+  "main": "repro.js",
+  "scripts": {
+    "test": "jest",
+    "node": "node repro.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
