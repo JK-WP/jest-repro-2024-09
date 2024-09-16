@@ -11,5 +11,8 @@
   "devDependencies": {
     "jest": "^29.7.0",
     "jest-environment-node-single-context": "^29.4.0"
-  }
+  },
+   "jest": {
+    "testEnvironment": "node"
+  } 
 }
