@@ -68,14 +68,15 @@ Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 passed, 2 total
 ```
 
-## Confirm the problem:
+## Confirm the problems:
 
 - When run under node, the function returns true
-- When run under jest, the function returns false
+- When run under jest, the function returns false (so that "should pass" fails)
+- When comparing the thrown Error using jest.toEqual, the comparison succeeds even where the error message does not match (so that "should fail" passes).
 
 ## Available workaround:
 
-This is actually a known problem, which is discussed at some length in issue
+This turns out to be a known problem, which is discussed at some length in issue
 [#2549](https://github.com/jestjs/jest/issues/2549),
 and appears related to the implementation which jest uses to isolate the context of each test.
 
