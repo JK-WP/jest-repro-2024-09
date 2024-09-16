@@ -1,6 +1,8 @@
 # jest-repro-2024-09
 
-Repro of Jest bug with globals, and demonstration of available workaround.
+Originally created as a minimal repro of a Jest bug with globals, which would need to be publicly visible,
+but adapted to include a demonstration of the available workaroundand when it was determined that this was
+a known problem.
 
 ## Pre-requisites
 
