@@ -71,8 +71,9 @@ Tests:       1 failed, 1 passed, 2 total
 ## Confirm the problems:
 
 - When run under node, the function returns true
-- When run under jest, the function returns false (so that "should pass" fails)
-- When comparing the thrown Error using jest.toEqual, the comparison succeeds even where the error message does not match (so that "should fail" passes).
+- When run under jest, the function returns false (so that `should pass` fails)
+- When comparing the thrown Error using `jest.toEqual`, (which is admittedly not best practice),
+  the comparison succeeds even where the error message does not match (so that `should fail` passes).
 
 ## Available workaround:
 
