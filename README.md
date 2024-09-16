@@ -1,6 +1,6 @@
 # jest-repro-2024-09
 
-Minimal repro for Jest bug report.
+Repro of Jest bug with globals, and demonstration of available workaround.
 
 ## Pre-requisites
 
